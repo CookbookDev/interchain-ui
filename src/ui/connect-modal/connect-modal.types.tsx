@@ -1,4 +1,5 @@
 import { BaseComponentProps } from "../../models/components.model";
+import type { MutableRefObject } from "react";
 
 export interface ConnectModalProps extends BaseComponentProps {
   isOpen: boolean;
@@ -11,4 +12,5 @@ export interface ConnectModalProps extends BaseComponentProps {
   modalContentClassName?: string;
   modalChildrenClassName?: string;
   modalContentStyles?: any;
+  portalRoot?: HTMLElement | null | MutableRefObject<HTMLElement | null>;
 }

@@ -62,13 +62,14 @@ export default function ConnectModal(props: ConnectModalProps) {
       className={props.modalContainerClassName}
       contentClassName={clx(
         modalContent[state.theme],
-        props.modalContentClassName
+        props.modalContentClassName,
       )}
       contentStyles={{
         ...state.overrideManager?.applyOverrides(connectModalOverrides.name),
         ...props.modalContentStyles,
       }}
       childrenClassName={clx(modalChildren, props.modalChildrenClassName)}
+      root={props.portalRoot}
     >
       <AnimateLayout className={modalAnimateContainer}>
         {props.children}

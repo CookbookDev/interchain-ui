@@ -1,7 +1,7 @@
 {
-  "name": "interchain-ui",
+  "name": "@cookbookdev/interchain-ui",
   "description": "UI building blocks for Interchain builders",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/cosmology-tech/interchain-ui.git"
@@ -54,7 +54,7 @@
     "@swc/helpers": "^0.5.11",
     "@types/animejs": "^3.1.12",
     "@types/node": "^20.14.9",
-    "@types/react": "latest",
+    "@types/react": "^18.3.3",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
     "@vanilla-extract/dynamic": "^2.1.1",
